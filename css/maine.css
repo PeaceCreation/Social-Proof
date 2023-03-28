@@ -1,0 +1,330 @@
+*{
+     padding:0px;
+     margin:0px;
+}
+.container{
+     padding-right:15px;
+     padding-left:15px;
+     margin-right:auto;
+     margin-left:auto;
+}
+body{
+     font-family: 'Libre Franklin', sans-serif;
+}
+/*  Start Navigation */
+.contents{
+     /* display: flex;
+     align-items: center;
+     justify-content: space-around;   */
+     padding-top:60px;
+     /* padding-top: 20px; */
+     padding-bottom: 20px;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.head h2{
+     font-weight: bold;
+     font-size: 34px;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     color:#542050;
+}
+@media(max-width:767px){
+     .head h2{
+          text-align:center;
+     }
+}
+
+.head .txt{
+     font-size: 17px;
+    line-height: 1.3;
+    color:hsl(303deg 15% 36%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media(max-width:767px){
+.testimonials .Colton .text {
+          font-size: 22px;
+          line-height: 1.6;
+     }
+}
+/*  End Navigation */
+
+/*  Start Box */
+.box {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 20px;
+     padding: 16px;
+     background-color:  hsl(300, 24%, 96%);
+     color: #542050;
+     font-weight: bold;
+     font-size: 14px;
+     border-radius: 10px;
+     margin-right: 50px;
+}
+@media(max-width:767px){
+     .box{
+          margin-right:0 !important;
+          font-size:12px;
+     }
+}
+.box .rate .fa-star{
+     color:#F4933E;
+}
+.report {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 20px;
+     padding: 16px;
+     padding: 16px;
+     background-color:  hsl(300, 24%, 96%);
+     color: #542050;
+     font-weight: bold;
+     font-size: 14px;
+     border-radius: 10px;
+     margin-top: 20px;
+     margin-left: 41px;
+     margin-right: 25px;
+}
+@media(max-width:767px){
+     .report{
+          margin-left:0 !important;
+          margin-right:0 !important;
+          font-size:12px;
+     }
+}
+.report .rate .fa-star{
+     color:#F4933E;
+}
+
+.tech{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     gap: 20px;
+     padding: 16px;
+     background-color:  hsl(300, 24%, 96%);
+     color: #542050;
+     font-weight: bold;
+     font-size: 14px;
+     border-radius: 10px;
+     margin-top: 20px;
+     margin-left: 80px;
+}
+@media(max-width:767px){
+     .tech{
+          margin-left:0 !important;
+          font-size:12px;
+     }
+}
+.tech .rate .fa-star{
+     color:#F4933E;
+}
+/*  End  Box */
+
+
+/*  Start Testimonials */
+.testimonials{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     /* display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+     gap: 20px; */
+ }
+
+ @media(max-width:767px){
+     .testimonials{
+          display: block;
+     }
+ }
+ .testimonials .Colton {
+     background-color: #521F51;
+     padding-bottom: 20px;
+     border-radius: 10px;
+     margin-top: -3px;
+     margin-bottom: 30px;
+ }
+
+.testimonials  .Colton .head{
+     display: flex;
+     padding: 30px;
+} 
+
+.testimonials  .Colton .head img{
+     width: 40px;
+     border-radius: 50px;
+}
+
+.testimonials .Colton .head .names{
+     padding-right: 10px;
+     padding-left: 20px;
+     font-weight: bold;
+     color:#fff;
+}
+.testimonials  .Colton .head .names p{
+     color:#fff;
+}
+.testimonials  .Colton  .head .names .last{
+     font-size: 12px;
+     padding-top:4px;
+     padding-bottom:4px;
+     color:#bf84be;
+}
+.testimonials .Colton  .text{
+     font-size: 15px;
+     color: hsl(0deg 0% 97% / 86%);
+     line-height: 1.6;
+     padding: 24px;
+}
+@media(max-width:767px){
+     .testimonials .Colton .text {
+          font-size: 22px;
+          line-height: 1.6;
+      }
+     }
+.testimonials .Irene{
+     background-color: #521F51;
+     padding-bottom: 30px;
+     margin-top: 15px;
+     margin-bottom: 10px;
+     border-radius: 10px;
+   }
+   
+   .testimonials  .Irene .head{
+        display: flex;
+        padding: 30px;
+   } 
+   
+   .testimonials  .Irene .head img{
+        width: 40px;
+        border-radius: 50px;
+   }
+   
+   .testimonials .Irene .head .names{
+        padding-right: 10px;
+        padding-left: 20px;
+        font-weight: bold;
+        color:#fff;
+   }
+   .testimonials  .Irene .head .names p{
+        color:#fff;
+   }
+   .testimonials  .Irene  .head .names .last{
+        font-size: 12px;
+        padding-top:4px;
+        padding-bottom:4px;
+        color:#bf84be;
+   }
+   .testimonials .Irene  .text{
+     font-size: 15px;
+     color: hsl(0deg 0% 97% / 86%);
+     line-height: 1.6;
+     padding: 24px;
+   }
+   @media(max-width:767px){
+     .testimonials .Irene .text{
+          font-size: 22px;
+          line-height: 1.6;
+      }
+ }
+.testimonials .anne{
+     background-color: #521F51;
+     padding-bottom: 30px;
+     margin-top: 34px;
+     margin-bottom: -10px;
+     border-radius: 10px;
+   }
+   
+   .testimonials  .anne .head{
+        display: flex;
+        padding: 30px;
+   } 
+   
+   .testimonials  .anne .head img{
+        width: 40px;
+        border-radius: 50px;
+        color: hsl(300, 24%, 96%);
+   }
+   
+   .testimonials .anne .head .names{
+        padding-right: 10px;
+        padding-left: 20px;
+        font-weight: bold;
+        color:#fff;
+   }
+   .testimonials  .anne .head .names p{
+        color:#fff;
+   }
+   .testimonials  .anne  .head .names .last{
+        font-size: 12px;
+        padding-top:4px;
+        padding-bottom:4px;
+        color:#bf84be;
+   }
+   .testimonials .anne  .text{
+     font-size: 15px;
+     color: hsl(0deg 0% 97% / 86%);
+     line-height: 1.6;
+     padding: 24px;
+   }
+   @media(max-width:767px){
+     .testimonials .anne .text{
+          font-size: 22px;
+          line-height: 1.6;
+      }
+     }
+/*  End  Testimonials */
+
+
+
+.attribution{
+     text-align: center;
+     padding-top:50px;
+     padding-bottom:30px;
+     text-transform: capitalize;
+}
+
+.attribution a{
+     text-decoration: none;
+     font-weight:bold;
+     font-size:20px;
+
+}
+.attribution a span{
+     font-weight:bold;
+     font-size:20px;
+     text-decoration: none;
+}
+.attribution a .sp{
+     color:#080;
+}
+
+
+
+
+
+@media(min-width:768px){
+     .container{
+          max-width:720px;
+     }
+}
+
+@media(min-width:992px){
+     .container{
+          max-width:920px;
+     }
+}
+
+
+
+@media(min-width:1200px){
+     .container{
+          max-width:1140px
+     }
+}
