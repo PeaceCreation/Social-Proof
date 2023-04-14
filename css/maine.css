@@ -10,6 +10,18 @@
 }
 body{
      font-family: 'Libre Franklin', sans-serif;
+     position:relative;
+     
+}
+body::before{
+     position:absolute;
+     content:"";
+     width:584px;
+     height: 362px;
+     background-image: url('../images/bg-pattern-top-desktop.svg');
+     top:0;
+     left:0;
+     z-index: 1;
 }
 /*  Start Navigation */
 .contents{
