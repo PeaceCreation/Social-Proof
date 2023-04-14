@@ -28,8 +28,8 @@ body::before{
      /* display: flex;
      align-items: center;
      justify-content: space-around;   */
-     padding-top:60px;
-     /* padding-top: 20px; */
+     padding-top: 118px;
+     padding-left: 165px;
      padding-bottom: 20px;
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
